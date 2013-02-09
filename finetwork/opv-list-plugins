@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/OpenVAS-Client --list-plugins --batch-mode localhost 9390 openvas ADie80openvas;

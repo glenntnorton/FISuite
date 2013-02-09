@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/OpenVAS-Client -p -c rc/finetwork-full-safe.rc -T nbe -q localhost 9390 openvas ADie80openvas t.txt t.nbe;

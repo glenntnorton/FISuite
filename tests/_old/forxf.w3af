@@ -1,0 +1,22 @@
+# Basic startup script
+plugins
+
+output xmlFile
+output config xmlFile
+set fileName forxf.xml
+back
+
+output config console
+back
+
+# could change this to audit all but just doing Cross Site Scripting Now
+audit LDAPi, blindSqli, buffOverflow, dav, eval, osCommanding, xss, sqli
+discovery webSpider
+back
+
+target
+set target http://demo.testfire.net/
+back
+
+start
+
